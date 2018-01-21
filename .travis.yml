@@ -1,2 +1,9 @@
 language: node_js
 node_js: node
+deploy:
+  provider: heroku
+  api_key:
+    secure: ip/v9m/E7wLA6PT2yD/jEedtl/pSVvbgzo1uj3RS9kof9EaszRACOLhHOj2hb7KFQLM0knfeSdJVACzmTiI9PJn4BV/Hf0gaV/byNflRM3AMDCgAbY07T3iask0SgAh/MmtezivUDJDmIHTi2UbS+ATppyIHtt80jkU1YPanlRNnFVwbKvqjrFvZuhAQDoSXm2YFFqyFro+nTjZq4bA9LKZ9ni8qE3lwZMuRNo0pRI9YHbA7FyJNUA75WAOHWoDaTjvFge+6148FGBiPquhdppFfWjn9S3pTkXUE/voNwzE2tDT2/YrKWg+VAa9/1MSUQQwKRy0s6xrEsxazJC0YWfNJYsfgck/qlJHhppTWhy4Ow/xfg2CpF9hVJZWS1kaGyypIVNcP329OOP/eqBB58pP1/au+VgFr+KPFnZ9iyD4Ha3YjmzKaOMFqIuEKuzqlwUdC2zISgI4H2u4yTkAm3QUZ5BJ0A2t5KcolT+UYrJql7rCt/9oQZIi+tUfab6eBZdCUbF3yreebSU3d66IRJ6xW5MAPvZ0bxAY6fEkVPxeHx3rtErPGSXaG7Cq+/Q95YF2geCd74RG/4dGVcGrsWs2vQZHvIhnNm3piGZ1PBcY3NWhQ1VGl+rYquaYeBnQRCV5ZR0nYAM/8aHn5YnSCkH4Nw0WOkF8c3tt20kh6AZw=
+  app: https://calm-beach-28827.herokuapp.com/
+  on:
+    repo: vijayenthran/node-shopping-list-integration-tests
